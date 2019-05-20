@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source /etc/profile.d/rvm.sh
+cd /home/ec2-user/ruby-on-rails
+
+bundle exec puma -C config/puma_production.rb

@@ -1,0 +1,9 @@
+{
+  "generator-agonb": {
+    "repository_url": "git@github.com:mazhuga/mazhuga-backend-app.git",
+    "project_destination_path": "mazhuga-backend-app",
+    "application_name": "mazhuga",
+    "project_technology": "rubyonrails",
+    "database_type": "postgresql"
+  }
+}

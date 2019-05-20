@@ -1,0 +1,21 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Put your install conmmands here"
+  pre_build:
+    commands:
+      - echo "Put your after-test script here. E.g setup test database"
+  build:
+    commands:
+      - ls
+  post_build:
+    commands:
+      - echo "Put your after-test script here. E.g delete test database"
+
+#artifacts:
+#  type: zip
+#  files:
+#    - coverage/**/*
+#  name: ${PROJECT_ID}_BuildArtifact
